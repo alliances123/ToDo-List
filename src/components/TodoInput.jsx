@@ -21,7 +21,7 @@ export default function TodoInput({ onAdd }) {
             />
             <button
                 onClick={handleAdd}
-                className="flex items-center gap-2  bg-[#ffa8dc] text-white px-4 py-2 rounded-xl hover:bg-[#ffc0e5] transition"
+                className="flex items-center gap-2 bg-[#ffa8dc] text-white px-4 py-2 rounded-xl hover:bg-[#ffc0e5] transition"
             >
                 <Plus size={18} /> إضافة
             </button>
