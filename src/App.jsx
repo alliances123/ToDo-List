@@ -22,7 +22,7 @@ export default function App() {
   }
 
   return (
-    <div className="max-w-lg mx-auto mt-10 p-6 bg-gray-50 rounded-2xl shadow-xl">
+    <div className="max-w-lg sm:mx-auto mx-2 mt-10 p-6 bg-gray-50 rounded-2xl shadow-xl">
       <h1 className="text-3xl font-bold text-center mb-6 text-[#ffa8dc]">
         ToDo List
       </h1>
