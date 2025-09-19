@@ -10,33 +10,6 @@
   background-color: #FFC0CB;
 }
 
-.response-btns {
-  display: -webkit-box;
-  /* Safari, iOS */
-  display: -ms-flexbox;
-  /* IE10 */
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  gap: 10px;
-}
-
-.response-add-btn {
-  padding: 10px 20px;
-  width: auto;
-}
-
-.response-flower {
-  position: relative;
-  left: 0;
-}
-
-.response-header {
-  font-size: 32px;
-  font-weight: bold;
-}
 
 /* -------------- Responsive for small screens -------------- */
 @media (max-width: 350px),
