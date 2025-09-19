@@ -10,8 +10,41 @@
   background-color: #FFC0CB;
 }
 
-@media (max-width:350px) {
+.response-btns {
+  display: -webkit-box;
+  /* Safari, iOS */
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.response-add-btn {
+  padding: 10px 20px;
+  width: auto;
+}
+
+.response-flower {
+  position: relative;
+  left: 0;
+}
+
+.response-header {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* -------------- Responsive for small screens -------------- */
+@media (max-width: 350px),
+(max-width: 22em) {
   .response-btns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 
@@ -20,10 +53,22 @@
   }
 
   .response-flower {
-    left: -30px;
+    left: -1.8em;
+    /* بدل -30px */
   }
 
   .response-header {
-    font-size: 27px;
+    font-size: 1.7em;
+    /* بدل 27px */
+  }
+}
+
+/* -------------- Optional: Better Browser Support -------------- */
+/* IE fallback for flexbox spacing */
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+  .response-btns {
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
   }
 }
