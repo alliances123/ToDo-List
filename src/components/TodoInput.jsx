@@ -11,7 +11,7 @@ export default function TodoInput({ onAdd }) {
     }
 
     return (
-        <div className="flex items-center gap-2 mb-6">
+        <div className="response-btns flex items-center gap-2 mb-6">
             <input
                 type="text"
                 value={task}
@@ -21,7 +21,7 @@ export default function TodoInput({ onAdd }) {
             />
             <button
                 onClick={handleAdd}
-                className="flex items-center gap-2 bg-[#ffa8dc] text-white px-4 py-2 rounded-xl hover:bg-[#ffc0e5] transition"
+                className="response-add-btn flex items-center gap-2 bg-[#ffa8dc] text-white px-4 py-2 rounded-xl hover:bg-[#ffc0e5] transition"
             >
                 <Plus size={18} /> إضافة
             </button>

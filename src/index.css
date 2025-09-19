@@ -9,3 +9,21 @@
   /* background-color: #ffbee6; */
   background-color: #FFC0CB;
 }
+
+@media (max-width:350px) {
+  .response-btns {
+    flex-direction: column;
+  }
+
+  .response-add-btn {
+    width: 100%;
+  }
+
+  .response-flower {
+    left: -30px;
+  }
+
+  .response-header {
+    font-size: 27px;
+  }
+}
