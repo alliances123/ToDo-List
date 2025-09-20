@@ -6,18 +6,11 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #ffbee6; */
   background-color: #FFC0CB;
 }
 
-
-/* -------------- Responsive for small screens -------------- */
-@media (max-width: 350px),
-(max-width: 22em) {
+@media (max-width:350px) {
   .response-btns {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
   }
 
@@ -26,22 +19,10 @@
   }
 
   .response-flower {
-    left: -1.8em;
-    /* بدل -30px */
+    left: -30px;
   }
 
   .response-header {
-    font-size: 1.7em;
-    /* بدل 27px */
-  }
-}
-
-/* -------------- Optional: Better Browser Support -------------- */
-/* IE fallback for flexbox spacing */
-@media all and (-ms-high-contrast: none),
-(-ms-high-contrast: active) {
-  .response-btns {
-    display: -ms-flexbox;
-    -ms-flex-wrap: wrap;
+    font-size: 27px;
   }
 }
